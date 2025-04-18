@@ -2,7 +2,6 @@
 
 - HTML5
 - CSS3
-- JavaScript (if applicable)
 
 ## 📌 Features
 
