@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>HW1 Website</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#" class="logo-name">Ali</a>
+        </div>
+
+        <nav class="nav-bar">
+            <a href="#home-section" class="nav-items active">Home</a>
+            <a href="#about-section" class="nav-items">About</a>
+            <a href="#contact-section" class="nav-items">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home-section">
+        <div class="home-image">
+            <img src="main.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi It's <span>Ali</span></h1>
+            <h3>I'm a <span>Web developer</span></h3>
+            <p>As software engineer with a strong foundation in backend development, database systems, and clean
+                architecture. I enjoy turning complex problems into elegant, efficient solutions — with a focus on
+                performance, scalability, and maintainability.</p>
+        </div>
+    </section>
+
+    <section class="about" id="about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>I'm</h3>
+                <p>👨‍💻 a software engineer with hands-on experience in building robust backend systems using C#,
+                    ASP.NET Core, and SQL Server. I focus on clean, maintainable code and performance-driven
+                    development.
+
+                    ⚙️ From containerization with Docker to scripting and automation with Python, I enjoy working across
+                    different layers of the stack. I'm also proficient with Git and collaborative workflows, making me a
+                    solid team player in agile environments.
+
+                    🤝 I'm actively open to job opportunities and collaboration — if you're working on something
+                    exciting or need someone reliable on your team, let's connect and make it happen.</p>
+                <h4>For more information about me ...</h4>
+                <a href="#" class="btn-cv">Download CV</a>
+            </div>
+            <div class="about-skills">
+                <h3>Hard Skills</h3>
+                <ul>
+                    <li>C#</li>
+                    <li>AspNetCore</li>
+                    <li>SQL Server</li>
+                    <li>HTML & CSS</li>
+                    <li>Javascript</li>
+                    <li>Docker</li>
+                    <li>Python</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact-section">
+        <h2>Contact with me</h2>
+        <div class="contact-content">
+            <div class="contact-information">
+                <h3>
+                    I'm always open to discussing new projects, creative ideas, or opportunities to be part of your
+                    vision. Whether you want to collaborate on a product, bring me into your team, or just say hi — feel
+                    free to drop a message!
+                </h3>
+
+                <div class="contact-quick-info">
+                    <p><strong>Location:</strong> Tehran, Iran</p>
+                    <p><strong>Freelance:</strong> Available</p>
+                    <p><strong>Languages:</strong> English, Persian</p>
+                </div>
+
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ali-khpour/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/AliKh-dev"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://t.me/ali_khpoor"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/lali.khpourl/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="#">
+                    <div class="contact-name">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="contact-email">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="contact-message">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" required></textarea>
+                    </div>
+                    <button class="contact-form-submit" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2025 Ali Khadempour Arani.</p>
+    </footer>
+</body>
+
+</html>
